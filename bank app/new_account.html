@@ -1,0 +1,77 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="main.js"></script>
+</head>
+
+<body >
+        <div class="p-3 mb-2 bg-info text-white">
+    <form style="margin-left:500px" >
+            <h1 style="margin-left:50px;color: brown;">Create New Account</h1>
+        <table style="border-block-start-color: black">
+            
+            <th><h4 style="margin-top:50px; color:darkgreen">Fill The Following Details</h4></th>
+            <tr>
+                <td><label>Name</label></td>
+                <td> <input type="text" name="firstname"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Contact Number</label></td>
+                <td> <input type="tel" id="phone"  name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> 
+                   <span class="note">Format: 123-456-7890</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Email</label></td>
+                <td> <input type="email" class="form control" id="email" name="email" required>  </td>
+            </tr>
+            <tr>
+                <td><label>Death Of Birth</label></td>
+                <td> <input type="date" name="dateofbirth"></td>
+            </tr>
+            <tr>
+                <td><label>Address</label></td>
+                <td><input type="text" placeholder="addressline"></td>
+            </tr>
+            <tr>
+                <td><label>City</label></td>
+                <td><input type="text" placeholder="city"></td>
+            </tr>
+            <tr>
+                <td><label>State</label></td>
+                <td><input type="text" placeholder="state"></td>
+            </tr>
+            <tr>
+                <td><label>Postal Code</label></td>
+                <td><input type="number" placeholder="post Code"></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td> <input type="radio" name="color" value="Male"> Male <br>  
+                    <input type="radio" name="color" value="Female"> Female</td><br>
+            </tr>
+            <tr>
+                    <td><label>Type Of Account</label></td>
+                    <td> <input type="radio" name="color1" value="saving"> Saving <br>  
+                        <input type="radio" name="color1" value="current"> Current</td>
+                </tr>
+            <tr><td><input type="button" value="Submit" ></td></tr>
+            </table>
+
+    </form>
+</div>
+
+
+</body>
+
+
+<html>
